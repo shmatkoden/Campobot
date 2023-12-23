@@ -1,0 +1,435 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('images/olen.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    height: 100vh; /* Добавлено для центрирования на всю высоту экрана */
+}
+
+.topLeftButton{
+    position: absolute;
+    top: 10px;
+    left: 1521px;
+    padding: 10px 20px;
+    font-size: 32px;
+    cursor: pointer;
+    background-color:none; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 20px; /* Задает овальную форму кнопке */
+    text-decoration: none;
+    transition: text-decoration 0.3s ease-in-out;
+}
+.topLeftButton:hover {
+  text-decoration: underline;
+  background-color: #c064bb; /* Измененный цвет фона при наведении */
+}
+    
+.topLeftButton1 {
+  position: absolute;
+  top: 10px;
+  left: 1221px;
+  padding: 10px 20px;
+  font-size: 32px;
+  cursor: pointer;
+  background-color: none;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  text-decoration: none;
+  transition: text-decoration 0.3s ease-in-out;
+}
+
+.topLeftButton1:hover {
+  text-decoration: underline;
+  background-color: #c064bb; /* Измененный цвет фона при наведении */
+}
+.topLeftButton2 {
+    position: absolute;
+    top: 10px;
+    left: 921px;
+    padding: 10px 20px;
+    font-size: 36px;
+    cursor: pointer;
+    background-color: none; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 20px; /* Задает овальную форму кнопке */
+    text-decoration: none;
+    transition: text-decoration 0.3s ease-in-out;
+}
+.topLeftButton2:hover {
+    text-decoration: underline;
+    background-color: #c064bb; /* Измененный цвет фона при наведении */
+}
+.topLeftButton3 {
+    position: absolute;
+    top: 10px;
+    left: 621px;
+    padding: 10px 20px;
+    font-size: 32px;
+    cursor: pointer;
+    background-color:none; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 20px; /* Задает овальную форму кнопке */
+    text-decoration: none;
+    transition: text-decoration 0.3s ease-in-out;
+}
+
+.topLeftButton3:hover {
+    text-decoration: underline;
+    background-color: #c064bb; /* Измененный цвет фона при наведении */
+}
+.topLeftButton4 {
+    position: absolute;
+    top: 10px;
+    left: 321px;
+    padding: 10px 20px;
+    font-size: 32px;
+    cursor: pointer;
+    background-color:none; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 20px; /* Задает овальную форму кнопке */
+    text-decoration: none;
+    transition: text-decoration 0.3s ease-in-out;
+}
+
+.topLeftButton4:hover {
+    text-decoration: underline;
+    background-color: #c064bb; /* Измененный цвет фона при наведении */
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .transparent-form {
+    background-color: rgba(244, 189, 227, 0.8);
+    padding: 50px;
+    border-radius: 120px;
+    box-shadow: 0 0 10px rgba(63, 2, 47, 0.1);
+  }
+  
+  .transparent-form h2 {
+    text-align: center;
+    
+    color: #333;
+  }
+  
+  .transparent-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transparent-form label {
+    margin-bottom: 8px;
+    font-size: 28px;
+  }
+  
+  .transparent-form input {
+    padding: 12px;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  .transparent-form select {
+    padding: 12px;
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  
+  .transparent-form button {
+    padding: 20px;
+    font-size: 28px;
+    background-color: #7225a5;
+    font-size: 32px;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .transparent-form button:hover {
+    background-color: #e554db;
+  }
+
+  
+  .caption {
+    position: absolute; /* или position: absolute; в зависимости от вашего дизайна */
+    top: 200px;
+    left: 1221px;
+    font-size: 32px; /* Размер шрифта в пикселях */
+    color: #fff;
+    font-weight: bold;
+    padding: 10px; /* Внутренний отступ вокруг текста в пикселях */
+    border-radius: 20px; /* Задает овальную форму кнопке */
+    
+    background-color: rgba(239, 96, 194, 0.414);
+  }
+  .caption1 {
+    position: absolute; /* или position: absolute; в зависимости от вашего дизайна */
+    top: 400px;
+    left: 1221px;
+    font-size: 32px; /* Размер шрифта в пикселях */
+    color: #fff;
+    font-weight: bold;
+    padding: 10px; /* Внутренний отступ вокруг текста в пикселях */
+    border-radius: 20px; /* Задает овальную форму кнопке */
+    background-color: rgba(211, 60, 163, 0.471);
+  }
+  .caption2 {
+    position: absolute; /* или position: absolute; в зависимости от вашего дизайна */
+    top: 600px;
+    left: 1221px;
+    font-size: 32px; /* Размер шрифта в пикселях */
+    color: #fff;
+    font-weight: bold;
+    padding: 10px; /* Внутренний отступ вокруг текста в пикселях */
+    border-radius: 20px; /* Задает овальную форму кнопке */
+    
+    background-color: rgba(188, 46, 143, 0.597);
+  }
+  .caption3 {
+    position: absolute; /* или position: absolute; в зависимости от вашего дизайна */
+    top: 800px;
+    left: 1221px;
+    font-size: 32px; /* Размер шрифта в пикселях */
+    color: #fff;
+    font-weight: bold;
+    padding: 10px; /* Внутренний отступ вокруг текста в пикселях */
+    border-radius: 20px; /* Задает овальную форму кнопке */
+    
+    background-color: rgba(160, 29, 119, 0.718);
+  }
+  .image1 {
+    position: absolute; /* или position: absolute; в зависимости от вашего дизайна */
+    top: 150px;
+    left: 900px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 170px; /* Задайте нужный размер */
+    height: 170px; /* Задайте нужный размер */
+    display: block;
+    transition: transform 0.3s ease; /* Добавим плавный переход для эффекта увеличения */
+   
+}
+.image1:hover {
+  transform: scale(1.2); /* Увеличение размера на 20% при наведении */
+}
+.image2 {
+  position: absolute; /* или position: absolute; в зависимости от вашего дизайна */
+  top: 350px;
+  left: 900px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 170px; /* Задайте нужный размер */
+  height: 170px; /* Задайте нужный размер */
+  display: block;
+  transition: transform 0.3s ease; /* Добавим плавный переход для эффекта увеличения */
+ 
+}
+.image2:hover {
+  transform: scale(1.2); /* Увеличение размера на 20% при наведении */}
+
+.image3 {
+  position: absolute; /* или position: absolute; в зависимости от вашего дизайна */
+  top: 550px;
+  left: 900px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 170px; /* Задайте нужный размер */
+  height: 170px; /* Задайте нужный размер */
+  display: block;
+    transition: transform 0.3s ease; /* Добавим плавный переход для эффекта увеличения */
+ 
+}
+.image3:hover {
+  transform: scale(1.2); /* Увеличение размера на 20% при наведении */}
+
+.image4 {
+  position: absolute; /* или position: absolute; в зависимости от вашего дизайна */
+  top: 750px;
+  left: 900px;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 170px; /* Задайте нужный размер */
+  height: 170px; /* Задайте нужный размер */
+  display: block;
+  transition: transform 0.3s ease; /* Добавим плавный переход для эффекта увеличения */
+}
+
+.image4:hover {
+    transform: scale(1.2); /* Увеличение размера на 20% при наведении */}
+  
+  
+ 
+
+.frame-container {
+  position: absolute; /* Позиционирование относительно своего обычного положения */
+  width: 500px;
+  height: 800px;
+  top: 80px; /* Отступ сверху */
+  left: 1200px; /* Отступ слева */
+  margin: 50px auto;
+  border: 5px solid #363636;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease; /* Добавим плавный переход цвета рамки */
+}
+
+.frame-container:hover {
+  border-color: #fcb885;
+  box-shadow: 0 0 20px #fcb885; /* Тень с эффектом неона */
+}
+   
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.square {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  margin: 50px auto;
+  background-color: rgba(138, 3, 141, 0); /* Прозрачный цвет фона */
+  border: 4px solid #1f031d; /* Цвет и толщина контура */
+  cursor: pointer; /* Добавим курсор, указывающий на то, что элемент можно нажать */
+}
+
+.square:hover {
+  border-color: #fcb885;
+  box-shadow: 0 0 20px #fcb885; /* Тень с эффектом неона */
+}
+
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.eye {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(138, 3, 141, 0); /* Цвет белка глаза */
+  border: 5px solid #1f031d; /* Контур глаза */
+  border-radius: 50%;
+  position: absolute;
+  top: 40px;
+}
+
+.eye1 {
+  width: 70px;
+  height: 70px;
+  right: 10px;
+  background-color: #1f031d; /* Цвет белка глаза */
+  border: 5px solid #1f031d; /* Контур глаза */
+  border-radius: 50%;
+  position: absolute;
+  top: 13.5px;
+}
+
+.left-eye:hover,
+.right-eye:hover,
+.eye1:hover {
+  border-color: #fcb885;
+  box-shadow: 0 0 20px #fcb885; /* Тень с эффектом неона */
+}
+
+.left-eye {
+  left: 60px;
+}
+
+.right-eye {
+  right: 60px;
+}
+
+.mouth {
+  width: 50px;
+  height: 70px;
+  background-color: rgba(138, 3, 141, 0);
+  border: 5px solid #1f031d; /* Контур рта */
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  position: absolute;
+  bottom: 70px;
+  left: 225px;
+  overflow: hidden;
+}
+
+.mouth:hover {
+  border-color: #fcb885;
+  box-shadow: 0 0 20px #fcb885; /* Тень с эффектом неона */
+}
+.line {
+  width: 250px;
+  height: 6px;
+  position: absolute;
+  right: 80px;
+  top: 250px;
+  background-color: #1f031d;
+  box-sizing: border-box;
+  
+}
+
+.line:hover {
+  background-color: #fcb885; /* Изменяем цвет линии при наведении */
+  box-shadow: 0 0 10px #fcb885, 0 0 20px #fcb885, 0 0 30px #fcb885; /* Три уровня тени для эффекта неона */
+}
+.text1 {
+  position: absolute;
+  top: 200px;
+  left: 30px;
+  right: 1300px;
+  font-size: 38px; /* Задайте желаемый размер шрифта */
+  color: #fff; /* Белый цвет текста */
+}
+.text1:hover {
+  
+  box-shadow: 0 0 10px #fcb885, 0 0 20px #fcb885, 0 0 30px #fcb885; /* Три уровня тени для эффекта неона */}
+.topLeftButton7 {
+    position: absolute;
+    top: 630px;
+    left: 200px;
+    padding: 10px 20px;
+    font-size: 40px;
+    cursor: pointer;
+    background-color:#ec37a4; /* Цвет фона кнопки */
+    color: white; /* Цвет текста кнопки */
+    border: none;
+    border-radius: 20px; /* Задает овальную форму кнопке */
+    text-decoration: none;
+    transition: text-decoration 0.3s ease-in-out;
+}
+
+.topLeftButton7:hover {
+    text-decoration: underline;
+    background-color: #c064bb; /* Измененный цвет фона при наведении */
+}
